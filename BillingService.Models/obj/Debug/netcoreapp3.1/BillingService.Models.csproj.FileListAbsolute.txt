@@ -1,0 +1,9 @@
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/bin/Debug/netcoreapp3.1/BillingService.Models.deps.json
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/bin/Debug/netcoreapp3.1/BillingService.Models.dll
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/bin/Debug/netcoreapp3.1/BillingService.Models.pdb
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/obj/Debug/netcoreapp3.1/BillingService.Models.csprojAssemblyReference.cache
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/obj/Debug/netcoreapp3.1/BillingService.Models.AssemblyInfoInputs.cache
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/obj/Debug/netcoreapp3.1/BillingService.Models.AssemblyInfo.cs
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/obj/Debug/netcoreapp3.1/BillingService.Models.csproj.CoreCompileInputs.cache
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/obj/Debug/netcoreapp3.1/BillingService.Models.dll
+/Users/mandeepsingh/Projects/BillingService.Web/BillingService.Models/obj/Debug/netcoreapp3.1/BillingService.Models.pdb
