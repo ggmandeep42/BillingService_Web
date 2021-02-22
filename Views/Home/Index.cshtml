@@ -1,0 +1,54 @@
+﻿@model BillingService.Web.Models.OrderViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+    <form enctype="multipart/form-data" method="post">
+        <div class="text-center">
+            <h2 class="display-4 btn-primary">Cafe Billing Service</h2><br />
+            <table style="margin-left:auto; margin-right:auto; border-collapse: collapse;">
+                <tr>
+                    <th><h4>Items</h4></th>
+                    <th><h4>Price</h4></th>
+                    <th><h4>Select Quantity</h4></th>
+                </tr>
+                <tr>
+                    <td><h5>Cola - Cold</h5></td>
+                    <td><h5>$ 0.50</h5></td>
+                    <td><input asp-for="ColaQuantity" type="number" /></td>
+                </tr>
+                <tr>
+                    <td><h5>Coffee - Hot</h5></td>
+                    <td><h5>$ 1.00</h5></td>
+                    <td><input asp-for="CoffeeQuantity" type="number" /></td>
+                </tr>
+                <tr>
+                    <td><h5>Cheese Sandwich - Cold</h5></td>
+                    <td><h5>$ 2.00</h5></td>
+                    <td><input asp-for="CheeseSwQuantity" type="number" /></td>
+                </tr>
+                <tr>
+                    <td><h5>Steak Sandwich - Hot</h5></td>
+                    <td><h5>$ 4.50</h5></td>
+                    <td><input asp-for="SteakSwQuantity" type="number" /></td>
+                </tr>
+
+            </table>
+            <br />
+            <input type="submit" class="btn btn-success" value="Get Total Bill" />
+            <br />
+
+            @if(Model != null)
+            {
+                <br />
+                <table style="margin-left:auto; margin-right:auto; border-collapse: collapse; width:40%">
+                    
+                    <tr>
+                        <td><h5>Total Bill</h5></td>
+                        <td><h5>$ @Model.Total.ToString()</h5></td>
+                    </tr>
+                </table>
+            }
+
+</div>
+    </form>
